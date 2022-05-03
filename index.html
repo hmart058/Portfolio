@@ -1,1 +1,309 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>GeoInsights Portfolio</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="port_style.css">
+	<script>
+		// prevent scrollTo() from jumping to iframes
+var originalScrollTo = window.scrollTo;
+
+window.scrollTo = function scrollTo (x, y) {
+  if (y === 0) {
+    originalScrollTo.call(this, x, y);
+  }
+}
+	</script>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-custom">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+<!--			  <img src="../HTML_images/nrcan_logo.PNG" width="15%" height="" alt="Natural Resources Canada logo" style="" href="https://nrcan.gc.ca">-->
+			  <img id="geologo" src="../HTML_images/GEO_logo.PNG"  width="8%" height="" alt="Natural Resources Canada logo">
+			  <img id="GIlogo" src="../HTML_images/Geoinsights_logo.PNG"  width="14%" height="" alt="GeoInsights logo">
+<!--			  <img src="../HTML_images/can_logo3.PNG" width="7%" height="" alt="Natural Resources Canada logo" style="float:right; padding-top:20px;">-->
+		</div>
+	  </div>
+	</nav>
+	<div class="wrapper">
+    <!-- Sidebar -->
+        <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Projects</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+			<li class="active">
+				<a href="#content">Introduction</a>
+			</li>
+			<li>
+                <a  href="#PrioritySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Responding to Priorities</a>
+                <ul class="collapse list-unstyled" id="PrioritySubmenu">
+                    <li>
+                        <a href="#flood">Emergency Flood Mapping Support</a>
+                    </li>
+                    <li>
+                        <a href="#fire">Wildland Fire Awareness Maps</a>
+                    </li>
+                    <li>
+                        <a href="#osdp">Open Science and Data Portal</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#CreateSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Creating Knowledge</a>
+                <ul class="collapse list-unstyled" id="CreateSubmenu">
+                    <li>
+                        <a href="#lcc">Land Cover of Canada 2015</a>
+                    </li>
+                    <li>
+                        <a href="#world">The World</a>
+                    </li>
+                    <li>
+                        <a href="#ppsr">Photovoltaic Potential and Solar Resources Maps of Canada</a>
+                    </li>
+					<li>
+						<a href="#smtc">State of Mass Timber in Canada Dashboard</a>
+					</li>
+                </ul>
+            </li>
+			<li>
+                <a href="#InformSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Informing Decisions</a>
+                <ul class="collapse list-unstyled" id="InformSubmenu">
+                    <li>
+                        <a href="#hot2000">HOT2000 Climate Map</a>
+                    </li>
+                    <li>
+                        <a href="#mpi">Major Project Inventory annual updates</a>
+                    </li>
+                    <li>
+                        <a href="#reliant">Resource-Reliant Communities and Vulnerable Labour Pools</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+			<li>
+				<a href="">français</a>
+			</li>
+        </ul>
+    </nav>
+	    <!-- Content for Responding to Priorities Theme -->
+    <div id="content">
+		<div id="intro" class="container-fluid">
+			<h1 id="insights">About GeoInsight</h1>
+		  <div class="row">
+		  		<div class="col-md-4 col-lg-12"><p>GeoInsights falls within the Federal Geospatial Platform and builds on the principals of the FGP in providing value for Canadians and the Government of Canada.</p></div>
+  		  		<div class="col-md-4 col-lg-12"><p>The portfolio highlights select recent projects developed and supported by Geoinsights.</p></div>
+		  		<div class="col-md-4 col-lg-12"><p>Each example highlights the analytics, applications, cartography and design used to create products that meet a wide variety of needs, from responding to government priorities to sharing geographic knowledge with Canadians.</p></div>
+          </div>
+		</div>
+		<div class="section_one">
+			<div class="container-fluid">
+				<h1 id="hpriority">Responding to Priorities</h1>
+			</div>
+			<div class="container-fluid">
+				<h3 id="flood">Emergency Flood Mapping Support</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="dept">Natural Resources Canada &#9679 Emergency Geomatics Service</h4>
+				</div>
+				<p id="description">During the 2019 ﬂood season, Natural Resources Canada’s Emergency Geomatics Service relied on GeoInsights team to assist with ﬂood response in Eastern Canada. Hundreds of satellite images over Manitoba, Ontario, Quebec and New Brunswick were acquired, processed, and developed into unique products to support situational awareness and response planning. Results were a near-real time overview of the ﬂood situation, and critical information to emergency responders during the response phase of the emergency management cycle. </p>
+				<img src="../HTML_images/flood_lrg.png" alt="Flood Extent static maps 2019">
+			</div>
+			<div class="container-fluid">
+				<h3 id="fire">Wildland Fire Awareness Maps</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Departmental Emegency Operations Center</h4>
+				</div>
+				<p id="">During the 2019 ﬂood season, Natural Resources Canada’s Emergency Geomatics Service relied on GeoInsights team to assist with ﬂood response in Eastern Canada. Hundreds of satellite images over Manitoba, Ontario, Quebec and New Brunswick were acquired, processed, and developed into unique products to support situational awareness and response planning. Results were a near-real time overview of the ﬂood situation, and critical information to emergency responders during the response phase of the emergency management cycle. </p>
+				<img src="../HTML_images/fires_lrg2.png" alt="Wildland Fire Map">
+			</div>
+			<div class="container-fluid">
+				<h3 id="osdp">Open Science Data Platform Curated Maps</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Strategic Policy and Innovation Sector</h4>
+				</div>
+				<p id="">GeoInsights is responsible for the creation and maintenance of the dynamic maps that leverage the FGP viewer on the Open Science Data Portal for Cumulative Effects (osdp). This includes 2 maps enabling geospatial data search within the catalogue and 8 maps based on the cumulative effects theme. GeoInsights also provides advice to the osdp group on how geospatial data can be optimally presented within maps and on the OSDP catalogue. </p>
+				<div class="row">
+				<a href="https://osdp-psdo.canada.ca/dp/en" target="_blank" class="appurl">Visit the Open Science and Data Platform</a>
+				</div>
+			</div>
+		</div>
+	<!-- Content for Creating Knowledge theme -->
+	<div class="section_two">
+		<div class="container-fluid">
+			<h1 id="ck">Creating Knowledge</h1>
+			<h3 id="lcc">Land Cover of Canada 2015</h3>
+			<div class="row">
+				<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Canada Centre for Remote Sensing</h4>
+			</div>
+			<p>Using 2015 land cover data originally derived from remotely sensed imagery by the Canadian Centre for Remote Sensing at a resolution of 30 metres, the GeoInsights team updated three products: data processing for proper visualization within the web service; interactive web mapping application; digital and print map poster. The data has been presented in an easily comprehensible way, explaining and depicting each of the land cover types found on the map.  </p>
+			<img src="../HTML_images/lcc_lrg.PNG" alt= "Canada's Land Cover map version 2015">
+		</div>
+		<div class="container-fluid">
+				<h3 id="world">The World</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 The Atlas of Canada</h4>
+				</div>
+				<p>The World is a general reference political map focused on the names and international boundaries of sovereign and non-sovereign countries. It is a new cartographic direction for the Atlas of Canada, providing an updated map to build geographic knowledge and utilising colour palettes and typographic choices to create a fresh, new and flexible cartographic design. The Winkel II map projection preserves contiguous continents while creating a formal symmetry for the map as a whole.  </p>
+				<img src="../HTML_images/TheWorld_lrg.jpg" alt= "The World map">
+		</div>
+		<div class="container-fluid">
+				<h3 id="ppsr">Photovoltaic Potential and Solar Resources Maps of Canada</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 CanmetENERGY</h4>
+				</div>
+				<p>Leveraging open data from across government, GeoInsights collaborated with Natural Resources Canada’s CanmetENERGY Photovoltaic Systems group to develop a web application that comprehensively maps the photovoltaic potential of 3500 Canadian municipalities. Using data that span a twenty-year period, the application analyzes and maps kilowatt per hour estimates of the solar power potential to generate electricity by grid-connected photovoltaic systems, by month and by year, and for six different array orientations for any location in Canada. </p>
+				<div class="row">
+					<a href = "https://fgp-pgf.maps.arcgis.com/apps/webappviewer/index.html?id=c91106a7d8c446a19dd1909fd93645d3" target="_blank" class="appurl">Open the Web App in browser</a>
+				</div>
+					<img src="../HTML_images/ppsr_lrg.png" alt= "Photovoltaic Potential and Solar Resources Maps of Canada static image">
+	
+<!--				<iframe  width="1200" height="700" scrolling = "no" frameborder="0" marginheight="0" marginwidth="0" onload="ScrollTo()" src="https://arcgis.com/apps/webappviewer/index.html?id=c91106a7d8c446a19dd1909fd93645d3"></iframe>-->
+		</div>
+		<div class="container-fluid">
+				<h3 id="smtc">State of Mass Timber in Canada</h3>
+				<div class="row">
+					<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Canadian Forest Service</h4>
+				</div>
+				<p id="">The State of Mass Timber in Canada map, database, and dashboard provides location and information of completed, under construction, or planned mass timber projects and manufacturing facilities in Canada. It was released along with the Canadian Forest Service’s 2021 smtc report documenting the domestic mass timber construction projects and production capacity, analyzing the increase in mass timber construction and demonstrating the value for builders and designers to build with wood. </p>
+				<div class="row">
+					<a href = "https://nrcan-rncan.maps.arcgis.com/apps/dashboards/041e338d2a4d4b3a82ff2c238a9f0f93" target="_blank" class="appurl">Open the Web App in browser</a>
+				</div>
+<!--				<iframe width="1200" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onload="window.scrollto()" src="https://nrcan-rncan.maps.arcgis.com/apps/dashboards/041e338d2a4d4b3a82ff2c238a9f0f93"></iframe>-->
+		</div>
+	</div>
+		<!-- Content for Informing Decisions theme -->
+	<div class="section_three">
+		<div class="container-fluid">
+			<h1 id="id">Informing Decisions</h1>
+			<h3 id="hot2000">HOT2000 Climate Map</h3>
+			<div class="row">
+				<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Office of Energy Efficiency</h4>
+			</div>
+			<p>The Housing Division of the Office of Energy Efficiency at Natural Resources Canada manages energy efficiency initiatives for new and existing houses. One of the key aspects is the energy analysis program, HOT2000. GeoInsights delivered key functionality and renewed geographic data to the HOT2000 suite with the development of an online web-based mapping application that delivers accurate climate data to all users, including regulatory agencies, builders, and government, exactly when and where they need it.</p>
+<!--			<iframe width="1200" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onload="window.scrollto()" src="https://fgp-pgf.maps.arcgis.com/apps/webappviewer/index.html?id=1f4a2a144bc1406f9deca7713986ced2"></iframe>-->
+			<div class="row">
+				<a href = "https://fgp-pgf.maps.arcgis.com/apps/webappviewer/index.html?id=1f4a2a144bc1406f9deca7713986ced2" target="_blank" class="appurl">Open the Web App in browser</a>
+			</div>
+			<img src="../HTML_images/hot2000_lrg.png" alt= "HOT2000 Climate Map application static image">
+		</div>
+		<div class="container-fluid">
+		<h3 id="mpi">Major Projects Inventory</h3>
+			<div class="row">
+				<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Major Projects Management Office</h4>
+			</div>
+			<p>Each year, the Economic Analysis and Data Division of the Strategic Policy and Results Sector collaborates with experts and partners to update the Major Projects Inventory, which tracks major projects in the energy, mining, and forest sectors that are either already under construction or planned to come under construction in the next 10 years. One national map and 13 provincial/territorial maps, in French and English, are created showing the location, type, and value of the major projects.</p>
+<!--			<iframe width="1200" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onload="window.scrollto()" src="https://fgp-pgf.maps.arcgis.com/apps/webappviewer/index.html?id=1f4a2a144bc1406f9deca7713986ced2"></iframe>-->
+			<div class="row">
+				<a href = "https://open.canada.ca/data/en/dataset/f5f2db55-31e4-42fb-8c73-23e1c44de9b2" target="_blank" class="appurl">Go to MPMO's Major Project Inventory on Open Maps</a>
+			</div>
+			<img src="../HTML_images/mpi_lrg.png" alt= "Major Projects Inventory static map sample">
+		</div>
+		<div class="container-fluid">
+		<h3 id="reliant">Resource-reliant Communities and Vulnerable Labour Pools</h3>
+			<div class="row">
+				<h4 class="col-md-4 col-lg-12" id="">Natural Resources Canada &#9679 Strategic Policy and Innovation Sector</h4>
+			</div>
+			<p>GeoInsights developed this dashboard mapping application for the Emerging Issues team within the Strategic Policy and Innovation Sector of Natural Resources Canada. Leveraging data from the Canadian Forest Service, the dashboard identifies and elaborates on resource reliant communities and vulnerable labour pools in Canada. Three analytical models are provided for evaluating labour force vulnerability: general vulnerability, resource sector-specific vulnerability, and sector intensity.</p>
+			<img src="../HTML_images/reliant_lrg.png" alt= "Resource-reliant Communities and Vulnerable Labout Pools map application static image">
+		</div>
+	  <div class="container-fluid">
+		<h3 id="contact">Contact</h3>
+		<div class="row">
+			<div class="col-md-4 col-lg-12">Natural Resources Canada</div>
+		  <div class="col-md-4 col-lg-12">Federal Geospatial Platform</div>
+		  <div class="col-md-4 col-lg-12">GeoInsights Team</div>
+		  	<a href="emailto:geoinsights-geoconnaissances@nrcan-rncan.gc.ca" class="appurl"> geoinsights-geoconnaissances@nrcan-rncan.gc.ca</a>
+		</div>
+		</div>
+    </div>
+</div>
+</div>
+<!--footer -->
+	<footer class="text-center text-lg-start text-muted">
+		<!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+		 <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+	<!-- Copyright -->
+  <div class="text-center p-4" style="background-color: #FFFFFF;">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+	</footer>
+
+ <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
+</html>
