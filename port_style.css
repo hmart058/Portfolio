@@ -4,7 +4,7 @@
     display: flex;
     width: 100%;
 	align-items:stretch;
-	margin-top:40px;
+	margin-top:0px;
 }
 
 #sidebar.active {
@@ -23,7 +23,6 @@ a[data-toggle="collapse"] {
     transform: translateY(-50%);
 }
 
-/*
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -33,7 +32,6 @@ a[data-toggle="collapse"] {
     }
 
 }
-*/
 
 
 /*
@@ -63,28 +61,42 @@ body {
 #geologo{
 	display:block; 
 	float:left; 
-	margin-left:100px;
 }
-#GIlogo{
+#canlogo{
 	display:block; 
 	float:right; 
 	margin-right:80px;
 }
-
-img{
-	padding-top:10px;
+#nrcanlogo{
+	display:block; 
+	float:left; 
+	margin-left:100px;
+}
+#GIlogo2{
+	margin: 0 auto;
 	padding-bottom:20px;
 }
+
+img{
+	padding-top:0px;
+	padding-bottom:10px;
+}
+.projimg{
+	padding-top:10px;
+	padding-bottom:10px;
+	width: auto;
+}
 #content{
-	margin-left: 25%;
-	margin-right: 20%;
+	margin-left: 450px;
+	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 100px;
+	padding-right:800px;
+
 }
 
 
 #intro{
-	font-size:1em;
 	margin-top: 0px;
 }
 p {
@@ -150,7 +162,7 @@ a, a:hover, a:focus {
 #sidebar {
     width: 250px;
     position: fixed;
-    top: 120px;
+    top: 145px;
     left: 120px;
 	bottom:500px;
     height: 100vh;
@@ -168,7 +180,6 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 0px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -186,10 +197,6 @@ a, a:hover, a:focus {
     background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
-}
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
@@ -198,12 +205,30 @@ ul ul a {
 
 @media (max-width: 1500px) {
     #content {
-		margin-left:40%;
+		margin-left:330px;
 		width:60%;
 		max-width:800px;
     }
 	#sidebar{
 		margin-left:-50px;
+		top:160px;
 	}
+	img{
+		width:100%;
+	}
+	#canlogo{
+		width:8%;
+	}
+	#nrcanlogo{
+		width:20%;
+		margin-left:5%;
+	}
+	#GIlogo2{
+		width:50%;
+	}
+	#geologo{
+		width:50%;
+	}
+
 
 }
