@@ -87,11 +87,10 @@ img{
 	width: auto;
 }
 #content{
-	margin-left: 450px;
-	margin-right: 0px;
+	margin-left: 480px;
+	margin-right: 480px;
 	margin-top: 0px;
 	margin-bottom: 100px;
-	padding-right:800px;
 
 }
 
@@ -213,9 +212,11 @@ ul ul a {
 		margin-left:-50px;
 		top:160px;
 	}
+/*
 	img{
 		width:100%;
 	}
+*/
 	#canlogo{
 		width:8%;
 	}
