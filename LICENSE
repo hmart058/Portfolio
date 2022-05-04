@@ -1,11 +1,37 @@
-The GeoInsights Portfolio is covered under Crown Copyright, Government of Canada.
+Content
 
+The GeoInsights Portfolio content is covered under Crown Copyright, Government of Canada.
 The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law. No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program. For more information, see http://www.tbs-sct.gc.ca/fip-pcim/index-eng.asp
 
 Copyright (c) 2022 Government of Canada
 
 Sauf indication contraire, la Portefeuille de GéoConnaissances est protégé par le droit d'auteur de la Couronne du gouvernement du Canada.
-
 Le mot-symbole « Canada » et les éléments graphiques connexes liés à cette distribution sont protégés en vertu des lois portant sur les marques de commerce et le droit d'auteur.
 
 (c) Droit d'auteur – Gouvernement du Canada, 2022
+
+
+Partial HTML/CSS source code
+
+The GitHub page source code for the sidebar format and function are sourced from the website https://bootstrapious.com/, operated by Ondrej Svestka and Bootstrapious and is distributed under the MIT License.
+MIT License
+
+Copyright (c) 2022 bootstrapious
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
